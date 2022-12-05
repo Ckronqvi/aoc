@@ -24,6 +24,7 @@ public class Main {
         }
         System.out.println("Task 1 score: " + score);
         System.out.println("Task 2 score: " + score2);
+        rd.close();
     }
 
     // For task 2.
