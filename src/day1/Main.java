@@ -33,6 +33,7 @@ public class Main {
             int sum = list.get(0) + list.get(1) + list.get(2);
             System.out.format("Maximum calories: %d%n", list.get(0));
             System.out.format("Maximum calories of 3 elves: %d", sum);
+            rd.close();
         } catch (IOException ioe) {
         }
     }
