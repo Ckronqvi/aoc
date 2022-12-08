@@ -76,7 +76,7 @@ public class Main {
             score2 += calcScore((char) badge);
         }
 
-        System.out.format("Task 1 score is: %d%n.", score);
+        System.out.format("Task 1 score is: %d%n", score);
         System.out.format("Task 2 score is: %d.", score2);
         rd.close();
     }
